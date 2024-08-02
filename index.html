@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini IMDB Clone App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header and Navbar -->
+    <header>
+        <nav class="navbar">
+            <!-- Logo for the app -->
+            <img src="./Images/music-image.png" alt="Movies Logo" class="music-logo">
+            <!-- Search container with icon and input -->
+            <div class="search-container">
+                <img src="./Images/search-image.png" alt="Search Icon" class="search-image">
+                <input type="text" class="input-search" placeholder="Search Here..." aria-label="Search">
+            </div>
+            <!-- Menu icon for small view -->
+            <a href="#" class="menu-icon"><img src="/Images/menu-icon 3.png" alt="Menu Icon"></a>
+        </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <!-- Search Results Section -->
+        <section class="search-result-display" aria-labelledby="search-results-title">
+            <!-- Title for search results -->
+            <h2 id="search-results-title">Search Results</h2>
+            <!-- Container for displaying search results -->
+            <div class="search-results"></div>
+        </section>
+
+        <!-- Favorites Section -->
+        <aside class="favorites" aria-labelledby="favorites-title">
+            <!-- Title for favorites list -->
+            <h2 id="favorites-title">My Favourite Movies</h2>
+            <!-- Container for displaying favorite movies -->
+            <div class="fav-movies-container"></div>
+        </aside>
+    </main>
+
+    <!-- JavaScript file link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
