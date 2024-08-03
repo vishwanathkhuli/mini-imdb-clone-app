@@ -12,11 +12,7 @@ This application mimics IMDb functionality, allowing users to search for movies,
 
 ## Hosted Link
 
-#### [Mini IMDb Clone](https://your-username.github.io/mini-imdb-clone/)
-
-## YouTube Video
-
-#### [Mini IMDb Clone Project Video](https://youtu.be/your-video-id)
+#### [Mini IMDb Clone](https://vishwanathkhuli.github.io/mini-imdb-clone-app/index.html)
 
 ## Features
 
